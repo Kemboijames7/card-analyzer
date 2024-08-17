@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Deck Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Analyze Your Deck</h1>
+    
+    <label for="deckInput">Enter your deck (comma-separated):</label>
+    <input type="text" id="deckInput" placeholder="e.g., 1,2,3,4,5">
+
+    <label for="cardType">Card Type to Count:</label>
+    <input type="number" id="cardType" placeholder="e.g., 3">
+
+    <button onclick="analyzeDeck()">Analyze</button>
+
+    <h2>Results</h2>
+    <p id="cardTypeResult"></p>
+    <p id="oddEvenResult"></p>
+
+   
+        <script src="main.js"></script>
+</body>
+</html>
